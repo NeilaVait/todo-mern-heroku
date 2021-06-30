@@ -1,8 +1,6 @@
 export default class GetSendData {
-  constructor() {
-    console.log(`fetch address ${GetSendData.todoApiUrl} `);
-  }
   static todoApiUrl = 'https://todo-mern-clone-nv.herokuapp.com/api/todos';
+
   static reqOptions = {
     mode: 'cors',
     cache: 'no-cache',
